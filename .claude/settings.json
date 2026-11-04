@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"${CLAUDE_PROJECT_DIR:-.}/.claude/hooks/taito-muistutus.py\"",
+            "timeout": 20,
+            "statusMessage": "Taitotarkistus"
+          }
+        ]
+      }
+    ]
+  }
+}
