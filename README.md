@@ -36,7 +36,18 @@ ja kirjoittaa vastaukset tiedostoihin. Sen voi keskeyttää ja jatkaa myöhemmin
 
 Jos koneella ei vielä ole tekoälysovellusta, komentorivityökaluja tai liittimiä, tee ensin `ASENNUS.md`.
 
-**Vaihtoehto A, Claude Code -sovellus (suositus).** Siirrä tämä `megabrain`-kansio kotihakemistoosi
+**Helpoin: anna Claudelle tämä viesti.** Avaa Claude-sovellus, Code-välilehti, valitse kansioksi vaikka
+kotikansiosi ja liitä:
+
+> Hae minulle megabrain-aloituspaketti ja asenna se. 1) Lataa
+> https://github.com/rooperamanen/megabrain-siemen/archive/refs/heads/main.zip ja pura se niin, että kansion
+> sisältö päätyy polkuun ~/megabrain (tai kloonaa repo sinne ja poista sitten remote origin, koska se on
+> julkaisijan repo). Jos ~/megabrain on jo olemassa, älä kirjoita päälle vaan kysy. 2) Tarkista, että
+> ~/megabrain/CLAUDE.md ja KAYTTOONOTTO.md ovat paikallaan. 3) Lue CLAUDE.md ja ASENNUS.md ja kerro, mitä
+> koneelta vielä puuttuu. 4) Pyydä minua avaamaan ~/megabrain projektiksi ja kirjoittamaan "Hei, aloitetaan
+> käyttöönotto", tai jatka käyttöönottoa heti KAYTTOONOTTO.md:n mukaan, jos pystyt.
+
+**Vaihtoehto A, Claude Code -sovellus, käsin.** Siirrä tämä `megabrain`-kansio kotihakemistoosi
 (`~/megabrain`); GitHubista joko "Download ZIP" tai `git clone … ~/megabrain` (`ASENNUS.md` kohta 3). Avaa Claude Code, valitse kansio projektiksi ja kirjoita ensimmäiseksi viestiksi:
 
 > Hei, aloitetaan käyttöönotto.
